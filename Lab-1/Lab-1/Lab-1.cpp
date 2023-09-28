@@ -235,10 +235,10 @@ void Load(Pipe& pipe, CS& Stations)
         }
         fout.close();
         cout << "Load completed" << endl;
-         cout << endl;
     }
     else
-        cout << "Error: can't find save file";
+        cout << "Error: can't find save file" << endl;
+    cout << endl;
 }
 
 int main()
